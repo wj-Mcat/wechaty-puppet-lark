@@ -1,4 +1,9 @@
-# 基于开放 API 封装 Wechaty 接口下的飞书聊天机器人
+# WECHATY PUPPET LARK (飞书)
+
+[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://wechaty.js.org)
+
+[![NPM Version](https://badge.fury.io/js/wechaty-puppet-lark.svg)](https://badge.fury.io/js/wechaty-puppet-lark)
+[![npm (tag)](https://img.shields.io/npm/v/wechaty-puppet-lark/next.svg)](https://www.npmjs.com/package/wechaty-puppet-lark?activeTab=versions)
 
 ## 运行方法
 
@@ -8,7 +13,7 @@
 
 2. `WECHATY_PUPPET_LARK_APPSECRET`：飞书应用的App Secret
 
-3. `WECHATY_PUPPET_PADCHAT_TOKEN`：飞书事件订阅平台提供的Verification Token
+3. `WECHATY_PUPPET_LARK_TOKEN`：飞书事件订阅平台提供的Verification Token
 
 ### 安装依赖
 
@@ -23,6 +28,15 @@
 `ts-node .\examples\ding-dong-bot.ts`
 
 按照提示完成URL配置，即可运行示例机器人
+
+## Getting Started with Wechaty
+
+```sh
+export WECHATY_PUPPET=wechaty-puppet-lark
+npm start
+```
+
+Learn more for building your first Wechaty bot at <https://github.com/wechaty/wechaty-getting-started>
 
 ## 项目介绍
 
@@ -73,3 +87,37 @@
 - [Wechaty](https://wechaty.js.org/v/zh/)
 - [Express](https://www.runoob.com/nodejs/nodejs-express-framework.html)
 - [TypeScripts中文手册](https://www.tslang.cn/docs/handbook/basic-types.html)
+
+## History
+
+### master
+
+### v0.4 (Feb 10, 2021)
+
+1. Fix linting
+1. Clean & Upgrade dependencies
+1. Fix CI/CD
+
+### v0.3 (Oct 2020)
+
+1. Move Repo to Wechaty Organization
+1. Blog: [基于开放 API 封装 Wechaty 接口下的飞书聊天机器人：期末](https://wechaty.js.org/2020/09/30/wechaty-puppet-lark-final-blog/)
+
+### v0.0.1 (Jul 29, 2020)
+
+1. Init version.
+1. Blog: [基于开放 API 封装 Wechaty 接口下的飞书聊天机器人：期初](https://wechaty.js.org/2020/07/29/wechaty-puppet-lark-plan-blog/)
+
+## Author
+
+[Fairy FAN](https://github.com/Roxanne718) (范蕊), study NAS (Neural Architecture Search) in Nankai University
+
+## Maintainer
+
+- [Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)), Tencent TVP of Chatbot, \<zixia@zixia.net\>
+
+## Copyright & License
+
+- Code & Docs © 2020-2021 Fairy FAN and Wechaty Contributors
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons
